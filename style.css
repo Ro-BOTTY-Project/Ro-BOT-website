@@ -3,3 +3,28 @@ body {
   background-size: 96%;
   font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 }
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  border-radius:10px;
+	overflow: hidden;
+	background-color: #ffa500;
+}
+li {
+	float: left;
+	border-right: 1px solid #000000;
+}
+li:last-child {
+	border-right: none;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+	background-color: #ff4800;
+}
